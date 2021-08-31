@@ -1,0 +1,29 @@
+@mixin input($selector) {
+  border-radius: .25rem;
+  height: 3rem;
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
+
+  &::placeholder {
+    font-size: .75rem;
+    color: $placeholder-text-color;
+  }
+
+  @if (#{$selector} == button) {
+    border: 1px solid $button-background-color;
+
+    &:not(.flat):focus {
+      background-color: $button-background-color-focus;
+      border: 1px solid $button-background-color-focus;
+    }
+  }
+
+  @if (#{$selector} == input) {
+    border: 1px solid #C0C0C0;
+    width: 100%;
+
+    &:focus {
+      border: 2px solid $input-border-color;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+// default
+$primary-color: #21b69d;
+$primary-text: #3F3D56;
+$disable: #CDCDD3;
+$positive: #3ec536;
+$negative: #fb343d;
+$neutral: #CDCDD3;
+
+
+// breakpoints
+$tiny: 480px;
+$small: 576px;
+$medium: 768px;
+$large: 992px;
+$extra-large: 1200px;
+
+// shared
+
+// button
+$button-background-color: $primary-color;
+$button-background-color-focus: $primary-text;
+$button-background-color-disable: $disable;
+$button-text-color: #FFFFFF;
+
+// Border color
+$border-color: rgba(63, 61, 86, .2);
+
+// form
+// input
+$placeholder-text-color: #8B8A99;
+$input-border-color: $primary-text;
+
+// header
+$header-height: 4rem;
+
+// notification
+$notification-default: $primary-color;
+$notification-success: #3ec536;
+$notification-warning: #fb9034;
+$notification-error: #fb343d;
+
+// resume
+$resume-background-color: #656565;
+
+// table
+$table-hover: rgba(63, 61, 86, .08);
